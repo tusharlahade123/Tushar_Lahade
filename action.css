@@ -1,0 +1,61 @@
+.word:nth-child(1) {
+  animation-delay: -7s;
+}
+
+.word:nth-child(2) {
+  animation-delay: -6s;
+}
+
+.word:nth-child(3) {
+  animation-delay: -5s;
+}
+
+@keyframes switch {
+  0%,
+  5%,
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+
+  50%,
+  80% {
+    filter: blur(180px);
+    opacity: 0;
+  }
+}
+.profession-skills section:hover span {
+  display: none;
+  content-visibility: hidden;
+  visibility: hidden;
+}
+.profession-skills #skill1:hover::before {
+  content: 'Proficiency: Intermidiate';
+}
+.profession-skills #skill2:hover::before {
+  content: 'Proficiency: Intermidiate';
+}
+.profession-skills #skill3:hover::before {
+  content: 'Proficiency: Begineer';
+}
+.profession-skills #skill4:hover::before {
+  content: 'Proficiency: Begineer';
+}
+.profession-skills #skill5:hover::before {
+  content: 'Proficiency: Begineer';
+}
+
+.education section:hover p {
+  display: none;
+  content-visibility: hidden;
+  visibility: hidden;
+}
+.education #education1:hover::before {
+  content: 'Name: Dr. D. Y. Patil Institute os Technology tushar';
+}
+.education #education2:hover::before {
+  content: 'Shri mhalsakant junior college';
+}
+.education #education3:hover::before {
+  content: 'Madhyamik vidhyalaya';
+}

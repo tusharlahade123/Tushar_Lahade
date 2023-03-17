@@ -1,0 +1,19 @@
+.text {
+  font-size: 5vh;
+}
+.experience1,
+.experience2 {
+  border: 2px solid black;
+  margin: 1vh 1vh;
+  background-image: url(../starter/images/Work.jpeg);
+  opacity: 0.5;
+  background-size: 100% 100%;
+  font-weight: bold;
+}
+
+.organization,
+.duration,
+.role,
+.project {
+  margin-bottom: 5px;
+}
